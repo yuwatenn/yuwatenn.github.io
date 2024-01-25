@@ -5,7 +5,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 body {
 	background-color: rgb(245,245,245); /* Not totally white. */
 	color: rgb(28,22,22);  /* Not totally black. */
-	line-height: 300%; 	/* A little extra leading. */
+	line-height: 180%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
 
