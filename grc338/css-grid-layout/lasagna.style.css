@@ -18,7 +18,7 @@ div.container {
 
 figure{
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 80fr 20fr;
 }
 
 main{
