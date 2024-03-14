@@ -1,0 +1,225 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+
+div.home-container { 
+	background: url(iced.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	margin: auto;
+	max-width: 75rem;
+}
+
+div.container { 
+	position: relative;
+	min-height: 100vh;
+	background-color: rgb(255,255,255);
+	max-width: 75rem;
+	margin: auto;
+}
+
+body {  
+    font-family: sans-serif; 
+	background-color: rgb(255, 255, 255);
+
+	
+}  
+p.slogan {  
+    font-family: serif;  
+    font-style: italic;  
+}
+
+article{
+	background-color: rgb(255, 255, 255);
+	margin: 0em 15em;
+}
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { 
+	padding: 1em 1em 4em;
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+header {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	background: rgb(255, 255, 255);
+	padding: 1rem 1rem;
+	}
+
+h1 {
+	width: 13em;
+	}
+
+h2, h3, h4 {
+		font-weight: bold;
+	
+	}
+
+h2 {
+	font-size: 2em;
+
+margin-top: 0.75em;
+	}
+	
+h3 {
+	font-size: 1.3em;
+	margin: 1em 0em 1em;
+}
+
+h4 {
+	color: rgb(255, 113, 175);
+	font-family: "bookmania", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	}
+
+nav ul  {
+	text-align: right;
+
+	}
+	
+ul li 	{
+	list-style-type: none;
+
+}
+
+figure {
+	margin-bottom: ____;
+}
+
+main.menu ul {
+	
+	
+
+}	
+
+main.menu ul li {
+	margin: 1.5em;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+
+}	
+
+
+p.slogan {  
+    font-family: serif;  
+    font-style: italic;  
+	
+}
+p {
+	margin: 1em 0em;
+
+font-family: big-caslon-fb, serif;
+font-style: normal;
+font-weight: 400;
+	}
+	
+p.description {
+	grid-column: 1/3;
+	margin: 0;
+	}
+	
+p.price {
+	grid-row: 1;
+grid-column: 2/2;
+	color: rgb(255, 113, 175);
+	text-align:right;
+	margin: 0;
+	font-family: bookmania, serif;
+font-style: normal;
+font-weight: 300;
+
+	}
+	
+nav ul li {
+	text-transform: none;
+	font-weight: bold;
+	margin-bottom: 1em;
+
+	}
+	article{
+		background-color: rgb(255, 255, 255);
+		margin: auto;
+		max-width: 75em;
+	}
+nav ul li a {
+	color: rgb(255, 113, 175);
+	background-color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-family: "bookmania", serif;
+font-weight: 400;
+font-style: italic;
+	padding: 0.25em 0.5em;
+	font-size: 1.5em;
+	}
+
+nav ul li.selected a {
+	background-color: rgb(255, 255, 255)
+
+}
+
+p.slogan {
+	font-size: 3.5em;
+	font-family: "bookmania", serif;
+font-weight: 400;
+font-style: italic;
+	margin: 1em 0.5em;
+	color: rgb(255,255,255);	
+	}
+	
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 1em 0.5em;
+  color: rgb(255, 113, 175);
+  background: rgb(255, 255, 255);
+}
+
+address {
+	color: rgb(255, 113, 175);
+	font-family: "bookmania", serif;
+font-weight: 700;
+font-style: italic;
+        
+margin: 0.3rem 0.3rem 0.2rem;
+
+
+	}
+
+footer p {
+	margin:0;
+	font-family: "bookmania", serif;
+font-weight: 700;
+font-style: italic;
+}
+@media screen and (min-width: 60em) {
+nav ul li{
+	display: inline;
+}	
+
+main.menu ul {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0em 5em;
+
+}
+
+
